@@ -27,11 +27,6 @@
     </nav>
 
     <main>
-   <section id="projects">
-      <h1>Projects</h1>
-	    <ol>
-        <li>Project 1 - <a href="slideshow/index.html">Slideshow</a></li>
-	<ol>
  <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
