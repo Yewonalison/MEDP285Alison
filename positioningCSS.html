@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initital-scale=1">
+
+    <title>CSS Positions</title>
+    <style>
+    * { box-sizing: border-box; }
+    .boxLeft {
+      margin: 15px;
+      padding: 20px 10px 20px 15px;
+      border: 1px solid #999;
+      background-color: red;
+      width: 400px;
+      float: left;
+    }
+    .boxRight {
+      margin: 15px;
+      padding: 20px 10px 20px 15px;
+      border: 1px solid #999;
+      background-color: green;
+      width: 400px;
+      float: right;
+    }
+    .boxClear {
+      margin: 15px;
+      padding: 20px 10px 20px 15px;
+      border: 1px solid #999;
+      background-color: blue;
+      width: 400px;
+      clear: both;
+    }
+    .boxAbsolute {
+      margin: 15px;
+      padding: 20px 10px 20px 15px;
+      border: 1px solid #999;
+      background-color: yellow;
+      width: 400px;
+      position: absolute;
+      top: 3000px;
+      left: 600px;
+    }
+    .boxFixed {
+      margin: auto;/*15px;
+      padding: 20px 10px 20px 15px;*/
+      border: 1px solid #999;
+      background-color: purple;
+      width: 400px;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+    }
+    .boxSticky {
+      margin: auto;/*15px;
+      padding: 20px 10px 20px 15px;*/
+      border: 1px solid #999;
+      background-color: orange;
+      width: 400px;
+      position: sticky;
+      top: 0px;
+      z-index: 10;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="boxLeft">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus augue ac ipsum pellentesque commodo. Sed pellentesque porttitor urna vitae faucibus. Etiam laoreet mi nec leo fermentum egestas. Nam elit urna, tincidunt at cursus quis, maximus ac purus. Nulla feugiat urna eu eros ornare, non sagittis enim congue. Proin feugiat non felis ut interdum. Maecenas pretium efficitur aliquet. Duis scelerisque, magna nec vulputate ultricies, risus diam fermentum ante, quis mattis nunc dui non dolor. In condimentum velit in libero pulvinar aliquet. Nulla facilisi.
+      </p>
+    </div>
+    <div class="boxRight">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus augue ac ipsum pellentesque commodo. Sed pellentesque porttitor urna vitae faucibus. Etiam laoreet mi nec leo fermentum egestas. Nam elit urna, tincidunt at cursus quis, maximus ac purus. Nulla feugiat urna eu eros ornare, non sagittis enim congue. Proin feugiat non felis ut interdum. Maecenas pretium efficitur aliquet. Duis scelerisque, magna nec vulputate ultricies, risus diam fermentum ante, quis mattis nunc dui non dolor. In condimentum velit in libero pulvinar aliquet. Nulla facilisi.
+      </p>
+    </div>
+    <div class="boxClear">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus augue ac ipsum pellentesque commodo. Sed pellentesque porttitor urna vitae faucibus. Etiam laoreet mi nec leo fermentum egestas. Nam elit urna, tincidunt at cursus quis, maximus ac purus. Nulla feugiat urna eu eros ornare, non sagittis enim congue. Proin feugiat non felis ut interdum. Maecenas pretium efficitur aliquet. Duis scelerisque, magna nec vulputate ultricies, risus diam fermentum ante, quis mattis nunc dui non dolor. In condimentum velit in libero pulvinar aliquet. Nulla facilisi.
+      </p>
+    </div>
+    <div class="boxAbsolute">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus augue ac ipsum pellentesque commodo. Sed pellentesque porttitor urna vitae faucibus. Etiam laoreet mi nec leo fermentum egestas. Nam elit urna, tincidunt at cursus quis, maximus ac purus. Nulla feugiat urna eu eros ornare, non sagittis enim congue. Proin feugiat non felis ut interdum. Maecenas pretium efficitur aliquet. Duis scelerisque, magna nec vulputate ultricies, risus diam fermentum ante, quis mattis nunc dui non dolor. In condimentum velit in libero pulvinar aliquet. Nulla facilisi.
+      </p>
+    </div>
+    <div class="boxFixed">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus augue ac ipsum pellentesque commodo. Sed pellentesque porttitor urna vitae faucibus. Etiam laoreet mi nec leo fermentum egestas. Nam elit urna, tincidunt at cursus quis, maximus ac purus. Nulla feugiat urna eu eros ornare, non sagittis enim congue. Proin feugiat non felis ut interdum. Maecenas pretium efficitur aliquet. Duis scelerisque, magna nec vulputate ultricies, risus diam fermentum ante, quis mattis nunc dui non dolor. In condimentum velit in libero pulvinar aliquet. Nulla facilisi.
+      </p>
+    </div>
+    <div class="boxSticky">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus augue ac ipsum pellentesque commodo. Sed pellentesque porttitor urna vitae faucibus. Etiam laoreet mi nec leo fermentum egestas. Nam elit urna, tincidunt at cursus quis, maximus ac purus. Nulla feugiat urna eu eros ornare, non sagittis enim congue. Proin feugiat non felis ut interdum. Maecenas pretium efficitur aliquet. Duis scelerisque, magna nec vulputate ultricies, risus diam fermentum ante, quis mattis nunc dui non dolor. In condimentum velit in libero pulvinar aliquet. Nulla facilisi.
+      </p>
+    </div>
+  </body>
+  </html>
