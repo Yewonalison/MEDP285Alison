@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS IMAGE</title>
+    <link rel="short icon" href="favicon.ico"/>
+    <style type="text/css">
+    	body{
+    		background-color: #FFE2DE;
+    		color: #01356B;
+    		font-family: "Comic Sans MS", cursive, sans-serif;
+    	}
+    </style>
+
+</head>
+	
+ <body>
+    <h1>Responsive Image Gallery</h1>
+        <nav id="nav">
+      <ul type="square">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <h2>Resize the browser window to see the effect.</h2>
+
+    <div id="main">
+
+      <div class="gallery">
+        <a target="_blank" href="tori1.JPG">
+          <img src="tori1.JPG" alt="No More Tweets" />
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="tori2.JPG">
+          <img src="tori2.JPG" alt="No More Tweets" />
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="tori3.JPG">
+          <img src="tori3.JPG" alt="No More Tweets" />
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="tori4.HEIC">
+          <img src="tori4.HEIC" alt="No More Tweets" />
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="tori5.JPG">
+          <img src="tori5.JPG" alt="No More Tweets" />
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="tori6.HEIC">
+          <img src="tori6.HEIC" alt="No More Tweets" />
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="tori7.JPG">
+          <img src="tori7.JPG" alt="No More Tweets" />
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="tori8.JPG">
+          <img src="tori8.JPG" alt="No More Tweets" />
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+    </div><!--close main-->
+
+    <div style="clear:both">
+      <p>
+        This example use media queries to re-arrange the images on different
+        screen sizes: for screens larger than 700px wide, it will show four
+        images side by side, for screens smaller than 700px, it will show two
+        images side by side. For screens smaller than 500px, the images will
+        stack vertically (100%).
+      </p>
+      <p>
+        <a href="https://www.w3schools.com/css/css_image_gallery.asp" target="_blank">W3Schools CSS Tutorial</a>
+      </p>
+    </div>
+  </body>
+  
+   </html>
