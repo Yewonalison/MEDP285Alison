@@ -45,14 +45,14 @@
     <script>
 	  //create a function to assemble the story
       function makeLibs() {
-		  story = "<h2 class='fade-in'>Migrations</h2><p class='fade-in'>In " +
+		  story = "<h2 class='fade-in'>My charater story</h2><p class='fade-in'>In " +
 		  document.madlibs.input1.value + ", " +
-		  " a child named " +
+		  " the charater name " +
 		  document.madlibs.input2.value + " " +
-		  document.madlibs.input3.value +
-		  " to a new land and had to build a " +
-		  document.madlibs.input4.value +
-		  " for shelter.</span></p>";
+		  " lives in " +
+	          document.madlibs.input3.value +
+	          " with a job as a " +
+		  document.madlibs.input4.value</span></p>;
 		  //write the story to a div in the page
 		  document.getElementById("writeLib").innerHTML=story;
 		}
