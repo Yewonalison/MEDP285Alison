@@ -7,6 +7,26 @@
 		<link rel="icon" href="favicon2.ico" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="css/position.css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+var i = 0; 
+var x = 'Heaven helps those who help themselves.'; 
+var y = ""; 
+function typeWriter() {
+	if (i < x.length) {  
+  		$("#typing").text(y+=x[i]) ;    
+   		 i++;    
+   		 //setTimeout(함수, 시간)은 해당시간 경과후 함수호출
+   		 setTimeout(typeWriter, 200);
+  	} 
+} 
+typeWriter();
+});//end
+</script>
+<style>
+#typing {font-size:3rem;}
+</style>		
 	</head>
 	<body class="is-preload">
 
@@ -83,6 +103,9 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
+		       <hr class="major" />
+		       
+		       <p id="typing"></p>
 	</body>
 
 										<hr class="major" />
